@@ -1,6 +1,6 @@
 # capacitorvolume
 
-Capacitorjs volume native
+Capacitorjs volume native (only ios)
 
 ## Install
 
@@ -13,7 +13,6 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
 * [`setVolume(...)`](#setvolume)
 
 </docgen-index>
@@ -21,32 +20,21 @@ npx cap sync
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
-
-```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
-```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-
 ### setVolume(...)
 
 ```typescript
 setVolume(options: { volume: number; }) => Promise<{ volume: number; }>
 ```
 
+Volume from 0.1 to 1
+
 | Param         | Type                             |
 | ------------- | -------------------------------- |
 | **`options`** | <code>{ volume: number; }</code> |
 
 **Returns:** <code>Promise&lt;{ volume: number; }&gt;</code>
+
+**Since:** 0.0.1
 
 --------------------
 
