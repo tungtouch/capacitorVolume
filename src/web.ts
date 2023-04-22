@@ -7,4 +7,7 @@ export class CapVolumeWeb extends WebPlugin implements CapVolumePlugin {
     console.log('ECHO', options);
     return options;
   }
+  async setVolume(options: { volume: number }): Promise<{ volume: number }> {    
+    return options;
+  }
 }
