@@ -4,5 +4,5 @@ export interface CapVolumePlugin {
     *
     * @since 0.0.1
     */
-  setVolume(options: {volume: number}): Promise<{ volume: number }>;
+  setVolume(options: {volume: number}): Promise<{ volume: number }>;  
 }
