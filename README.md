@@ -14,7 +14,6 @@ npx cap sync
 <docgen-index>
 
 * [`setVolume(...)`](#setvolume)
-* [`getVolume(...)`](#getvolume)
 
 </docgen-index>
 
@@ -36,21 +35,6 @@ Volume from 0.1 to 1
 **Returns:** <code>Promise&lt;{ volume: number; }&gt;</code>
 
 **Since:** 0.0.1
-
---------------------
-
-
-### getVolume(...)
-
-```typescript
-getVolume(options: { volume: number; }) => Promise<{ volume: number; }>
-```
-
-| Param         | Type                             |
-| ------------- | -------------------------------- |
-| **`options`** | <code>{ volume: number; }</code> |
-
-**Returns:** <code>Promise&lt;{ volume: number; }&gt;</code>
 
 --------------------
 
