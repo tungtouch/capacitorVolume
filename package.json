@@ -1,6 +1,6 @@
 {
   "name": "capacitorvolume",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Capacitorjs volume native (ios)",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
